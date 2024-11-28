@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f1f1; /* Pastel background */
+    color: #333;
+    text-align: center;
+}
+
+.welcome-container {
+    margin-top: 50px;
+}
+
+input[type="text"], input[type="date"] {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6c6e1; /* Pastel purple */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a8a2d0; /* Slightly darker purple */
+}
+
+h1 {
+    color: #5d3f8a; /* Darker purple */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #6a4f4b; /* Another pastel color */
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.section-button {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #e8d4c3; /* Pastel peach */
+    color: #4a3c3a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.section-button:hover {
+    background-color: #d0b89e; /* Darker pastel peach */
+}

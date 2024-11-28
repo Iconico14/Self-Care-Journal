@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome, <span id="username"></span></h1>
+    <div class="container">
+        <button class="section-button" onclick="location.href='pages/skincare.html'">Skincare</button>
+        <button class="section-button" onclick="location.href='pages/personal.html'">Personal</button>
+        <button class="section-button" onclick="location.href='pages/gratitude.html'">Gratitude</button>
+        <button class="section-button" onclick="location.href='pages/school.html'">School</button>
+        <button class="section-button" onclick="location.href='pages/book-list.html'">Book List</button>
+        <button class="section-button" onclick="location.href='pages/study-planner.html'">Study Planner</button>
+        <button class="section-button" onclick="location.href='pages/diet.html'">Diet</button>
+    </div>
+    <script>
+        document.getElementById('username').innerText = localStorage.getItem('userName');
+    </script>
+</body>
+</html>
